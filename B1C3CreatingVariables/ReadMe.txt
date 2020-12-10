@@ -1,0 +1,1 @@
+Open bin and go to debug and find Calculator and run, if that doesn't work try running as administrator
