@@ -1,5 +1,5 @@
 #include <iostream>
-#include <time.h>
+
 using namespace std;
 
 int main()
@@ -9,7 +9,8 @@ int main()
     float Number2;
     string Exit;
     string MathSymbol;
-
+    int x = 0;
+    while(x == 0){
     cout << "Input First Number" << endl;
     cin >> Number1;
     cout << "Input your Math Symbol" << endl;
@@ -34,6 +35,7 @@ int main()
     cin >> Exit;
     if(Exit == "Exit"){
            return 0;
+    }
     }
 
 }
